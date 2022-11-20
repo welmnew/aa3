@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+       
+}
+
+body{
+    margin: 0 7em;
+    font-family: roboto;
+    }
+
+h2 {
+    font-size: 3rem;
+    color: rgb(4, 4, 78);
+}
+
+h3{
+    text-align: center;
+    color: #888;
+    font-size: 1.5rem;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 1fr 1fr;
+    color: rgb(4, 4, 78);
+    font-size: 1.1rem;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+}
+
+.menu{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.form {
+    grid-row-start: 2;
+}
+
+.grafico{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.descrip{
+    background-color:#aaa;
+}
+
+.titulaciones{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+.seccion{
+    background-color: rgb(191, 183, 183);
+    border-radius: 20px;
+    margin: 1em;
+}
+
+.seccion a{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.campo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.matricula{
+    text-align: center;
+}
+
+.experto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+h6{
+    font-size: 2rem;
+    color: chocolate;
+}
+
+.expert h2{
+    text-align: center;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(91, 94, 96);
+    color: antiquewhite;
+}
+
+footer a{
+    color: chocolate;
+}
+
+footer h3{
+    color: aliceblue;
+}
+.share ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sedes{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1 fr 1 fr;
+}
+
+.others ul{
+    display: flex;
+
+}
